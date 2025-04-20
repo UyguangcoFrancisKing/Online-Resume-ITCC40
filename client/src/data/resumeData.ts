@@ -24,7 +24,7 @@ export const resumeData = {
       {
         icon: "skills",
         title: "Interests",
-        description: "Web development, Databases, Football, Gaming"
+        description: "Networking, Web development, Databases, Football, Gaming"
       }
     ]
   },
@@ -148,7 +148,7 @@ export const resumeData = {
     {
       name: "Cafe Adelia Point of Sale System",
       description: "A point of sale system for Cafe Adelia, featuring inventory management, order processing, and sales reporting capabilities.",
-      year: "2024",
+      year: "Ongoing",
       technologies: ["Django", "MySQL", "HTML", "CSS", "JavaScript", "Python"],
       demoUrl: "",
       githubUrl: ""
