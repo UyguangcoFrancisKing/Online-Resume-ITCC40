@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Francis King Uyguangco - Resume</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#hobbies">Hobbies</a>
+  </nav>
+
+  <div class="resume-container">
+    <header>
+      <h1>Francis King Uyguangco</h1>
+      <p>009 Del Fuente St. Lower Jasaan, Jasaan Misamis Oriental</p>
+      <p>Contact: 09365617944 | Age: 24 | Email: francisking_uyguangco@example.com</p>
+    </header>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>
+          I am a dedicated and detail-oriented Information Technology student at <strong>Xavier University - Ateneo de Cagayan</strong>, with a strong foundation in networking, system integration, and backend development. My academic and project experiences have honed my ability to design, configure, and maintain secure and scalable networks while ensuring seamless integration between systems and services.
+        </p>
+        <p>
+          With a passion for understanding how systems communicate and interconnect, I take pride in building reliable infrastructures and optimizing network performance. I enjoy exploring routing protocols, configuring network devices, and ensuring data flows efficiently across platforms and applications.
+        </p>
+        <p>
+          Complementing my networking expertise is a growing proficiency in system development—crafting backend logic, integrating RESTful APIs, and developing structured databases. I believe in creating well-connected systems that are both efficient and scalable, always guided by best practices and user-centric design.
+        </p>
+        <p>
+          My goal is to become a well-rounded IT professional who bridges the gap between hardware-level connectivity and high-level software systems, driving performance, security, and innovation.
+        </p>
+      </section>
+      
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>BS in Information Technology</strong><br/>Xavier University - Ateneo de Cagayan<br/>Cagayan de Oro City, Philippines 9003<br>2021 - 2026</li>
+      </ul>
+    </section>
+
+    <section id="achievements">
+      <h2>Achievements & Organizations</h2>
+      <ul>
+        <li>Xavier University Intramurals<br>Football Captain - College of Computer Studies<br>2021–2025</li><br>
+        <li>Xavier University - Crusader Year Book<br>Computer System Officer<br>2024–2025</li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+
+      <p>Networking</p>
+      <div class="skill-bar"><div class="skill-fill" data-percent="85%">85%</div></div>
+
+      <p>Python</p>
+      <div class="skill-bar"><div class="skill-fill" data-percent="85%">85%</div></div>
+
+      <p>Java</p>
+      <div class="skill-bar"><div class="skill-fill" data-percent="75%">75%</div></div>
+
+      <p>HTML/CSS</p>
+      <div class="skill-bar"><div class="skill-fill" data-percent="50%">50%</div></div>
+
+      <p>JavaScript</p>
+      <div class="skill-bar"><div class="skill-fill" data-percent="30%">30%</div></div>
+
+      <p>MySQL / MongoDB</p>
+      <div class="skill-bar"><div class="skill-fill" data-percent="80%">80%</div></div>
+
+      <p>Django / Laravel / PHP</p>
+      <div class="skill-bar"><div class="skill-fill" data-percent="80%">80%</div></div>
+
+      <p>System Integration / RESTful API</p>
+      <div class="skill-bar"><div class="skill-fill" data-percent="75%">75%</div></div>
+
+      <p>Microsoft Office Suite</p>
+      <div class="skill-bar"><div class="skill-fill" data-percent="85%">85%</div></div>
+    </section>
+
+    <section id="projects">
+      <h2>On-Going Project</h2>
+      <ul>
+        <li><strong>Cafe Adelia Point of Sale System</strong><br/>Technologies Used: Django, MySQL, HTML, CSS, JavaScript, Python</li>
+      </ul>
+    </section>
+
+    <section id="hobbies">
+      <h2>Hobbies</h2>
+      <ul>
+        <li>Football</li>
+        <li>Computer Games (FPS & MMORPG)</li>
+      </ul>
+    </section>
+  </div>
+
+  <script>
+    // Animate skill bars
+    window.addEventListener('DOMContentLoaded', () => {
+      const fills = document.querySelectorAll('.skill-fill');
+      fills.forEach(bar => {
+        const percent = bar.getAttribute('data-percent');
+        setTimeout(() => {
+          bar.style.width = percent;
+        }, 200);
+      });
+    });
+  </script>
+</body>
+</html>
