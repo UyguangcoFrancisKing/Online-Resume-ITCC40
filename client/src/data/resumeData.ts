@@ -2,248 +2,169 @@ export const resumeData = {
   about: {
     name: "Francis King Uyguangco",
     initials: "FKU",
-    title: "Software Engineer & Web Developer",
-    summary: "Passionate software engineer with expertise in full-stack development, dedicated to creating elegant solutions to complex problems. Experienced in web development, mobile applications, and cloud infrastructure.",
+    title: "Information Technology Student",
+    summary: "Information Technology student with knowledge in web development and system integration. Passionate about creating functional applications and working with databases.",
     email: "francisking.uyguangco@example.com",
-    phone: "+1 (123) 456-7890",
-    location: "Manila, Philippines",
-    availability: "Available for freelance and full-time positions",
-    github: "https://github.com/francisking",
-    linkedin: "https://linkedin.com/in/francisking",
+    phone: "09365617944",
+    location: "009 Del Fuente St. Lower Jasaan, Jasaan Misamis Oriental",
+    availability: "Available for internships and entry-level positions",
+    github: "",
+    linkedin: "",
     highlights: [
       {
         icon: "education",
         title: "Education",
-        description: "Bachelor's degree in Computer Science with academic honors"
+        description: "Bachelor of Science in Information Technology"
       },
       {
         icon: "experience",
-        title: "Experience",
-        description: "5+ years of professional software development experience"
+        title: "Organization",
+        description: "Computer System Officer, Crusader Year Book"
       },
       {
         icon: "skills",
-        title: "Skills",
-        description: "Full-stack development, mobile apps, cloud solutions"
+        title: "Interests",
+        description: "Web development, Databases, Football, Gaming"
       }
     ]
   },
   
   education: [
     {
-      institution: "University of the Philippines",
-      degree: "Bachelor of Science in Computer Science",
-      period: "2013 - 2017",
-      description: "Graduated with honors, focusing on software engineering and artificial intelligence.",
+      institution: "Xavier University - Ateneo de Cagayan",
+      degree: "Bachelor of Science in Information Technology",
+      period: "2021 - 2026",
+      description: "Currently pursuing a degree in Information Technology, focusing on web development and database systems.",
       achievements: [
-        "Dean's Lister for 7 consecutive semesters",
-        "Academic Excellence Award",
-        "Best Undergraduate Thesis Award"
+        "Intramurals 2021-2025",
+        "College of Computer Studies Football Captain"
       ],
       courses: [
-        "Data Structures",
-        "Algorithms",
-        "Software Engineering",
+        "Web Development",
         "Database Systems",
-        "Web Development"
-      ]
-    },
-    {
-      institution: "Harvard University (Online)",
-      degree: "Certificate in Web Programming with Python and JavaScript",
-      period: "2018",
-      description: "Intensive online program covering modern web development technologies and best practices.",
-      courses: [
-        "HTML/CSS",
-        "JavaScript",
-        "Python",
-        "Django",
-        "SQL"
+        "Programming",
+        "Networking",
+        "System Integration"
       ]
     }
   ],
   
   experience: [
     {
-      position: "Senior Software Engineer",
-      company: "Tech Innovations Inc.",
-      location: "Manila, Philippines",
-      period: "2020 - Present",
-      description: "Leading the development of enterprise-grade web applications and services.",
+      position: "Computer System Officer",
+      company: "Crusader Year Book",
+      location: "Xavier University",
+      period: "2024 - 2025",
+      description: "Managing computer systems and providing technical support for the university's yearbook publication.",
       responsibilities: [
-        "Architect and implement scalable web applications using React, Node.js, and AWS",
-        "Lead a team of 5 developers, providing mentorship and code reviews",
-        "Collaborate with product managers and designers to define feature specifications",
-        "Implement CI/CD pipelines and maintain code quality standards"
+        "Maintain computer systems used for yearbook production",
+        "Provide technical support for staff members",
+        "Assist with digital asset management",
+        "Troubleshoot software and hardware issues"
       ],
-      achievements: [
-        "Reduced application load time by 40% through performance optimization",
-        "Successfully migrated legacy systems to modern cloud-based architecture",
-        "Implemented automated testing that improved code coverage from 60% to 90%"
-      ],
+      achievements: [],
       technologies: [
-        "React", "Node.js", "TypeScript", "AWS", "MongoDB", "Docker"
-      ]
-    },
-    {
-      position: "Web Developer",
-      company: "Digital Solutions Co.",
-      location: "Cebu, Philippines",
-      period: "2017 - 2020",
-      description: "Developed responsive web applications and e-commerce solutions for clients across various industries.",
-      responsibilities: [
-        "Built responsive front-end interfaces using HTML, CSS, JavaScript, and React",
-        "Developed RESTful APIs using Node.js and Express",
-        "Implemented database solutions using MongoDB and PostgreSQL",
-        "Worked directly with clients to gather requirements and deliver solutions"
-      ],
-      achievements: [
-        "Delivered 15+ successful web projects with 100% client satisfaction",
-        "Reduced development time by 30% through component-based architecture",
-        "Recipient of Employee of the Year award (2019)"
-      ],
-      technologies: [
-        "React", "JavaScript", "Node.js", "Express", "MongoDB", "PostgreSQL"
+        "Microsoft Office", "Computer Maintenance", "Technical Support"
       ]
     }
   ],
   
   skills: [
     {
-      name: "JavaScript",
-      level: 95,
-      category: "Programming Languages",
-      keywords: ["ES6+", "TypeScript", "Node.js"]
-    },
-    {
       name: "Python",
-      level: 85,
+      level: 70,
       category: "Programming Languages",
-      keywords: ["Django", "Flask", "Data Analysis"]
+      keywords: ["Django", "Web Development", "Data Analysis"]
     },
     {
       name: "Java",
-      level: 80,
+      level: 65,
       category: "Programming Languages",
-      keywords: ["Spring Boot", "Android"]
+      keywords: ["Object-Oriented Programming", "Application Development"]
     },
     {
-      name: "React",
-      level: 90,
-      category: "Frontend",
-      keywords: ["Redux", "Hooks", "Context API"]
-    },
-    {
-      name: "Angular",
-      level: 75,
-      category: "Frontend",
-      keywords: ["RxJS", "NgRx", "Angular Material"]
+      name: "PHP",
+      level: 60,
+      category: "Programming Languages",
+      keywords: ["Laravel", "Web Development"]
     },
     {
       name: "HTML/CSS",
-      level: 95,
+      level: 75,
       category: "Frontend",
-      keywords: ["Responsive Design", "SASS/SCSS", "Tailwind CSS"]
+      keywords: ["Responsive Design", "Web Development"]
     },
     {
-      name: "Node.js",
-      level: 90,
-      category: "Backend",
-      keywords: ["Express", "NestJS", "API Development"]
+      name: "JavaScript",
+      level: 60,
+      category: "Frontend",
+      keywords: ["DOM Manipulation", "Web Functionality"]
     },
     {
       name: "Django",
-      level: 80,
+      level: 65,
       category: "Backend",
-      keywords: ["REST Framework", "ORM", "Authentication"]
+      keywords: ["Web Framework", "Python", "ORM"]
+    },
+    {
+      name: "Laravel",
+      level: 60,
+      category: "Backend",
+      keywords: ["PHP Framework", "MVC", "Blade Templates"]
+    },
+    {
+      name: "MySQL",
+      level: 70,
+      category: "Databases",
+      keywords: ["SQL", "Database Design", "RDBMS"]
     },
     {
       name: "MongoDB",
-      level: 85,
+      level: 60,
       category: "Databases",
-      keywords: ["Mongoose", "Aggregation", "Atlas"]
+      keywords: ["NoSQL", "Document Database"]
     },
     {
-      name: "PostgreSQL",
-      level: 80,
-      category: "Databases",
-      keywords: ["SQL", "Database Design", "Performance Tuning"]
+      name: "Cisco Networking",
+      level: 65,
+      category: "IT Infrastructure",
+      keywords: ["Network Configuration", "Routing", "Switching"]
     },
     {
-      name: "AWS",
-      level: 75,
-      category: "DevOps",
-      keywords: ["EC2", "S3", "Lambda", "CloudFormation"]
+      name: "RESTful API",
+      level: 60,
+      category: "IT Infrastructure",
+      keywords: ["API Design", "HTTP Methods", "Integration"]
     },
     {
-      name: "Docker",
-      level: 85,
-      category: "DevOps",
-      keywords: ["Containers", "Docker Compose", "Kubernetes"]
+      name: "System Integration",
+      level: 65,
+      category: "IT Infrastructure",
+      keywords: ["Software Integration", "Middleware", "API"]
     }
   ],
   
   projects: [
     {
-      name: "E-Commerce Platform",
-      description: "A full-featured e-commerce platform with product management, cart functionality, payment processing, and order tracking.",
-      year: "2022",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe API", "AWS"],
-      demoUrl: "https://ecommerce-demo.example.com",
-      githubUrl: "https://github.com/francisking/ecommerce-platform"
-    },
-    {
-      name: "Task Management System",
-      description: "A collaborative task management application with real-time updates, task assignment, progress tracking, and reporting.",
-      year: "2021",
-      technologies: ["React", "TypeScript", "Node.js", "Socket.io", "PostgreSQL"],
-      demoUrl: "https://task-manager.example.com",
-      githubUrl: "https://github.com/francisking/task-manager"
-    },
-    {
-      name: "Health Monitoring App",
-      description: "A mobile application for tracking health metrics, medication schedules, and providing health insights through data analysis.",
-      year: "2020",
-      technologies: ["React Native", "Firebase", "Node.js", "TensorFlow.js"],
-      demoUrl: "https://health-app.example.com",
-      githubUrl: "https://github.com/francisking/health-app"
-    },
-    {
-      name: "Real Estate Listing Portal",
-      description: "A property listing platform with advanced search, filters, map integration, and virtual tour capabilities.",
-      year: "2019",
-      technologies: ["Angular", "Django", "PostgreSQL", "Google Maps API"],
-      demoUrl: "https://realestate.example.com",
-      githubUrl: "https://github.com/francisking/real-estate"
-    },
-    {
-      name: "AI-Powered Content Generator",
-      description: "A tool that uses machine learning to generate content suggestions based on user inputs and preferences.",
-      year: "2021",
-      technologies: ["Python", "Flask", "TensorFlow", "React", "MongoDB"],
-      demoUrl: "https://ai-content.example.com",
-      githubUrl: "https://github.com/francisking/ai-content-generator"
-    },
-    {
-      name: "Budget Tracking Application",
-      description: "A financial management application for tracking expenses, income, budgeting, and financial goal planning.",
-      year: "2020",
-      technologies: ["React", "Node.js", "D3.js", "MongoDB"],
-      demoUrl: "https://budget-app.example.com",
-      githubUrl: "https://github.com/francisking/budget-app"
+      name: "Cafe Adelia Point of Sale System",
+      description: "A point of sale system for Cafe Adelia, featuring inventory management, order processing, and sales reporting capabilities.",
+      year: "2024",
+      technologies: ["Django", "MySQL", "HTML", "CSS", "JavaScript", "Python"],
+      demoUrl: "",
+      githubUrl: ""
     }
   ],
   
   contact: {
     email: "francisking.uyguangco@example.com",
-    phone: "+1 (123) 456-7890",
-    location: "Manila, Philippines",
+    phone: "09365617944",
+    location: "009 Del Fuente St. Lower Jasaan, Jasaan Misamis Oriental",
     availableFor: [
-      "Full-time positions",
-      "Freelance projects",
-      "Remote work opportunities",
-      "Technical consultancy",
-      "Speaking engagements"
+      "Internships",
+      "Entry-level positions",
+      "Project collaboration",
+      "School projects",
+      "Part-time work"
     ]
   }
 };
